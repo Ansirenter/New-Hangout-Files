@@ -10,7 +10,7 @@
  */
 
 var config = {
-    name: 'Booty-Bot',
+    name: 'Hangout Bot',
     userid: function () {
         return toId(this.name);
     },
@@ -325,22 +325,64 @@ var commands = {
 
     whois: (function () {
         var reply = [
-            "Just another Pokemon Showdown user",
-            "A very good competetive pokemon player",
-            "A worthy opponent",
-            "Generally, a bad user",
-            "Generally, a good user",
-            "Someone who is better than you",
-            "An amazing person",
-            "A beautiful person",
-            "A person who is probably still a virgin",
-            "A leader",
-            "A lord helix follower",
-            "An annoying person",
-            "A person with a salty personality",
-            "A Coffee Addict",
-            "A Mediocre Player",
-        ];
+                "Looly ! Hey Pixie!",
+                "Booh My kakhi now!",
+                "TheAmazingSPiderman er ?",
+                "The Great Anrin Baba!",
+                "Jaddu daddu !",
+                "The Alcohol addict",
+                "Voldka Lover",
+                "The guy who still needs a gf",
+                "Heya Silverster Stallone",
+                "ToM CRUS !I MEAN ANSI LAL",
+                "who Need a doctor",
+                "The no.1 Bachelor !",
+                "The guy who wuvv naruto",
+                "Pixieforestofdeadhuntedsouls",
+                "Who wuvvs",
+                "Who say Drag",
+                "Who let the dog out?",
+                "the childed guy on earth",
+                "megamind",
+                "Properbly an anime lovea",
+                "He wuvvvvvvvvvvvvvvvvvvvvv something idk",
+                "Kaiji THE ULTIMATE SURVIVOR",
+                "Zero !! i mistt battle network though",
+                "Man Such a Drag",
+                "WHY U EVEN NEED HIS DAMN NAME ? U S***",
+                "I heard he loves Pixie!",
+                "I heard she loves ANSI",
+                "I head WALLY loves CHARI",
+                "JADDU ! the no.1 12 year old kid!",
+                "lIGHT YAGAMI I GUESS",
+                "hmmm lets see.... HATAKE KAKSHI!",
+                "Lady Tsunade",
+                "Who is hot",
+                "She is SEXY",
+                "She loves Bot",
+                "IDK WHO THE HELL THAT IS U TRASH",
+                "Jeir ! i miss him ;~;",
+                "Ganeshwar's ! god take my request",
+                "Who loves Ansi",
+                "Who loves Pixie",
+                "who loves chari",
+                "who hates Having a bed time with someone",
+                "Who loves Anrin",
+                "Naruto Uzumaki",
+                "Jadeja the hero",
+                "Brendon McCullum i guess",
+                "Nipples !! I miss u buddy",
+                "Shauna ? Man Ur soo rude to chari",
+                "Juju!!!",
+                "Who loves Rhythm",
+                "LOLOLOLOLOL How can i know ?",
+                "Pradham STOP PUNISHING THE BOT WILL YA ?",
+                "Anrin baba!!!",
+                "Darling muss !!!",
+                "Showdown creator Dark Shadow 6",
+                "Jo Woh Bolta hai wo boh karta hai", 
+                "Ammmm..... Fate zero lova",
+       ];
 
         return function (target, room, user) {
             if (!target) return;
@@ -351,8 +393,11 @@ var commands = {
             if (target === 'creaturephil') message = 'An experienced **coder** for pokemon showdown. He has coded for over 5 servers such as kill the noise, moxie, aerdeith, nova, etc. Please follow him on github: https://github.com/CreaturePhil';
             if (target === config.userid()) message = 'That\'s me.';
             if (target === 'zarel') message = 'Pokemon Showdown Creator';
-            if (target === 'stevoduhhero') message = 'STEVO DUH GOD DAMN HERO! Respect him!';
-            if (target === 'rickycocaine') message = 'RICKY COCAAAAAAAINE﻿';
+            if (target === 'blakjack') message = 'BlakJack properbly the best indian you will find in PS. BlakJack will give anything of his server or anything even if it is the files of his own super famous server files. He never thinks anything bad for anyone. One of the kindest guy !';
+            if (target === 'ansirent') message = 'Best kid in PS. Properbly have the experience of becoming admins 4 times in different servers. He have his own way of thinking and writing. He was a nob when he joined PS. But now he is properbly the best kid in PS. You will love his Charisma';
+            if (target === 'indiancharizard') message = 'the best guy in the whole universe. I bet if u talk with him u will just fall in love with him. But if your a boy ur gonna love his kindness. He can do anything for you if he is your best friend. He is the greatest guy on the world and a friend you can never ever have in 1 frillion years. If you got him as your best friend man your so god damn lucky';
+            if (target === 'darkshadow6') message = 'He is a kind guy. He will talk with you kindly. Sometimes he act a little annoying. But still he is your best friend';
+            if (target === 'anrin') message = 'no words for him. you will love this guy. He got an amazing sense of humar. But if you fight with him he will leave. whether its PS or fb or twitter if u fight he leaves and will properbly come back with different name. His correct name is Heroes so go talk with him but dont say its him';
 
             this.sendReply(message);
         };
@@ -361,25 +406,20 @@ var commands = {
     helix: (function () {
         var reply = [
             "Signs point to yes.",
-            "Yes.",
-            "Reply hazy, try again.",
-            "Without a doubt.",
-            "My sources say no.",
-            "As I see it, yes.",
-            "You may rely on it.",
-            "Concentrate and ask again.",
-            "Outlook not so good.",
-            "It is decidedly so.",
-            "Better not tell you now.",
-            "Very doubtful.",
-            "Yes - definitely.",
-            "It is certain.",
-            "Cannot predict now.",
-            "Most likely.",
-            "Ask again later.",
-            "My reply is no.",
-            "Outlook good.",
-            "Don't count on it."
+            "Hmm i have to think tho",
+            "Well yeah sure !",
+            "Forgot it ! tell me do you like Fate zero ",
+            "Well i don't think so", 
+            "I don't know well ask Ansirent",
+            "Well you see i love Ansirent so NO",
+            "I love Ansirent cause he is the best kid in ps",
+            "Hmm i gotta think",
+            "Hard one",
+            "Well i don't think so m7",
+            "Franklin my dear i don't give a damn",
+            "ha ha too funny but no !!",
+            "Man i need Naruto, can u call him please ?",
+            "Abraham Lincon ? WHo the hell is that ?",
         ];
 
         return function (target, room, user) {
